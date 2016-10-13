@@ -3,9 +3,9 @@ lazy val `Scala-Unsigned` = project
   .enablePlugins(AutomateHeaderPlugin, GitVersioning)
 
 
-val Version = "0.1.1"
+val Version = "0.1.2"
 
-version := "0.1.1"
+version := "0.1.2"
 
 organization := "net.karana"
 
