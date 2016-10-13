@@ -17,6 +17,7 @@ case class ULong(val long: Long) extends ULongIsIntegral {
   def *(other: ULong): ULong = self * other
   def /(other: ULong): ULong = self / other
   def toShort: Short         = long.toShort
+  def toByte: Byte           = long.toByte
   def toChar: Char           = long.toChar
   def toInt: Int             = long.toInt
   def toLong: Long           = long

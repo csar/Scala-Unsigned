@@ -18,6 +18,7 @@ case class UShort(val short: Short) extends UShortIsIntegral {
   def toChar: Char        = toInt.toChar
   def toShort: Short      = toInt.toShort
   def toLong: Long        = toInt
+  def toByte: Byte        = short.toByte
   override def toString() = toInt.toString()
 
 }

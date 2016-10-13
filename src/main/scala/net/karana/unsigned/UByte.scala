@@ -18,6 +18,7 @@ case class UByte(val byte: Byte) extends UByteIsIntegral {
   def *(other: UByte): UByte = self * other
   def /(other: UByte): UByte = self / other
   def toInt: Int             = self.toInt()
+  def toByte: Byte           = byte
   def toChar: Char           = toInt.toChar
   def toShort: Short         = toInt.toShort
   def toLong: Long           = toInt

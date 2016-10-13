@@ -15,6 +15,7 @@ case class UInt(val int: Int) extends UIntIsIntegral {
   def *(other: UInt): UInt = self * other
   def /(other: UInt): UInt = self / other
   def toShort: Short       = int.toShort
+  def toByte: Byte       = int.toByte
   def toChar: Char         = int.toChar
   def toInt: Int           = int
   def toLong: Long         = self.toLong()
