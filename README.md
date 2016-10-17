@@ -12,7 +12,7 @@ There are few implicit conversions so that we don't get into a conversion hell, 
 
 Add it to the build.sbt with
 
-libraryDependencies += "net.karana" % "scala-unsigned_2.11" % "0.1.0" 
+libraryDependencies += "net.karana" % "scala-unsigned_2.11" % "0.1.2" 
 
 ## Contribution policy ##
 
